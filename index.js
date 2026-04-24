@@ -66,7 +66,7 @@ app.post('/test', async (req, res) => {
     
     res.json({
       success: true,
-      reply: `You said: ${userMessage}`,
+      reply: `You said 🍒: ${userMessage}`,
       timestamp: new Date().toISOString()
     });
   } catch (err) {
