@@ -1,0 +1,21 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Azure Bot Framework chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["bot", "chatbot", "azure"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^4.23.3",
+    "express": "^5.2.1"
+  }
+}
